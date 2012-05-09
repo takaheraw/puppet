@@ -1,5 +1,11 @@
 # Starting the Puppet Master
 
     /etc/init.d/puppetmaster start
-    
-    # /etc/init.d/puppetmaster start
+
+# Starting the Puppet Agent
+
++ /etc/sysconfig/puppet
+
+    PUPPET_SERVER=puppet-master-serveR
+
+    PUPPET_SERVER=puppet-master-serveR
