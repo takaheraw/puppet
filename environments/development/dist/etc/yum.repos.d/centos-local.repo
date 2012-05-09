@@ -1,0 +1,5 @@
+[local]
+name=CentOS local $releasever - $basearch
+baseurl=http://my-local-repository/yum/centos/6/RPMS/
+enabled=1
+gpgcheck=0
