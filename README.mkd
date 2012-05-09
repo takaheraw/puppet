@@ -4,7 +4,7 @@
 
 # Puppet Agent
 
-## Configuration
+### Configuration
 
     # vi /etc/sysconfig/puppet
 
@@ -13,7 +13,7 @@
      PUPPET_EXTRA_OPTS='--listen --no-client --environment=development'
 
 
-## Starting the Puppet Agent
+### Starting the Puppet Agent
 
     # /etc/init.d/puppet start
 
