@@ -17,6 +17,6 @@
 
     # /etc/init.d/puppet start
 
-# puppetrun
+# Puppetrun
 
     # puppetrun --all --parallel 5
