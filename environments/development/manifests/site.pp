@@ -3,6 +3,6 @@ node basenode {
     include "user"
 } 
 
-node "web" inherits basenode {
+node "development.example.com" inherits basenode {
    include "apache"
 }
